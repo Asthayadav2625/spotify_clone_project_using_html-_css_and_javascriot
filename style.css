@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,600&family=Noto+Serif+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,600&family=Noto+Serif+Display:ital,wght@1,500&display=swap');
+ 
+body{
+    background:antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+    font-weight: bold;
+}
+.logo img{
+    width: 50px;
+    padding: 0 8px;
+    border-radius: 17px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: rgb(124, 235, 124);
+}
+.container{
+    min-height: 60vh;/* vh means 80% of height*/
+    background-color: black;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 34px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('bg1.jpg');
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+#myprogress{
+    width: 80vh;
+    text-align: center;
+    cursor:pointer;
+
+}
+.icons{
+    margin: 12px;
+   
+}
+.icons i{
+    margin: 5px;
+    cursor: pointer;
+}   
+.songitems{
+    height: 50px;
+    display: flex;
+     margin: 12px 0;
+    background-color:white;
+    color: black;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    width: 80%;
+   
+}
+.songitems img{
+   width: 43px;
+   border-radius: 34px;
+   margin: 0 23px;
+}
+.timespan{
+    margin: 0 23px;
+     
+}
+.songitems i{
+    margin: 5px 23px;
+    cursor: pointer;
+    
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    margin: 100px;
+    padding: 100px;
+     
+}   
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.81s ease-in;
+}
+
+ 
